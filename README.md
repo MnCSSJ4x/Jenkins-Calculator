@@ -1,1 +1,2 @@
 # Jenkins-Calculator
+A simple demo code to show the working of Jenkins in automating testing with help of pipeline scripts. Code consist of a simple calculator with functions like factorial, logarithm (natural) and square root of a number. <br/> unit_tests1 consist of all tests which should semantically pass while the 2nd file consists of test cases which fail due to improper edge case and exception handling while coding the calculator. 
