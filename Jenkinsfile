@@ -8,8 +8,8 @@ pipeline {
         }
         stage('Build Code') {
             steps {
-                sh "chmod u+x factorial.py"
-                sh "./factorial.py"
+                sh "chmod u+x Calculator.py"
+                sh "./Calculator.py"
             }
         }
         stage('Test Set 1 (supposed to pass) ') {
