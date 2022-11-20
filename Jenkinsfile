@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Git') {
             steps {
-                git ''
+                git 'https://github.com/MnCSSJ4x/Jenkins-Calculator'
             }
         }
         stage('Build Code') {
